@@ -1,20 +1,13 @@
 <template>
   <div id="app">
-    <Header />
-    <Cadastro />
+    <router-view />
   </div>
 </template>
 
 <script>
-import Cadastro from "./components/Cadastro.vue";
-import Header from "./components/Header.vue";
-
 export default {
   name: "App",
-  components: {
-    Cadastro,
-    Header,
-  },
+  components: {},
 };
 </script>
 
